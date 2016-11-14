@@ -1,0 +1,21 @@
+{
+  "name": "PhotoViewer",
+  "version": "1.0.0",
+  "description": "A simple photo gallary app in Node.js with touchscreen support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camelofcode/photo-viewer.git"
+  },
+  "author": "Chris Clayton",
+  "license": "MIT",
+  "homepage": "https://github.com/camelofcode/photo-viewer/blob/master/README.md",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}

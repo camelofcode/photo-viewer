@@ -1,0 +1,22 @@
+{
+  "name": "PhotoViewer",
+  "version": "1.0.0",
+  "authors": [
+    "camelofcode <n0652640@googlemail.com>"
+  ],
+  "description": "A simple photo gallary app in Node.js with touchscreen support",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "AngularHammer": "ryanmullins-angular-hammer#2.1.10",
+    "bootstrap": "^3.3.7"
+  }
+}

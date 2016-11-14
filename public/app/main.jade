@@ -1,0 +1,17 @@
+
+div(class="row")
+    div(ng-repeat="content in folderContents | filter:{ isFile: false }")
+        div(class="col-sm-3 col-md-2")
+                a(href="{{content.path}}")
+                    div(class="thumbnail folder")
+                        img(src="{{loaded && content.imagePath || '../img/folder.png'}}" class="thumbnail-image")
+                        div(class="caption thumbnail-text")
+                            h6 {{content.name}}
+    div(ng-repeat="content in folderContents | filter:{ isFile: true }")
+        div(class="col-sm-3 col-md-2")
+                div(class="thumbnail image" ng-click="viewPhoto($index)")
+                    img(src="{{loaded && content.imagePath}}" class="thumbnail-image")
+                    div(class="caption thumbnail-text")
+                        h6 {{content.name}}
+                div(class="clear")
+                div(class="clear")
